@@ -4,7 +4,7 @@ const morgan = require("morgan");
 const server = require("./config/default.json").server;
 const app = express();
 
-app.set("json spaces", 2);
+app.set("json spaces", 4);
 
 // Middlewares setup
 app.use(morgan("combined"));
